@@ -50,3 +50,13 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Python/Pycharm
+__pycache__
+.idea/
+
+# VScode
+.vscode/
+
+# For MacOS
+.DS_Store

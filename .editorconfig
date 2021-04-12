@@ -12,12 +12,12 @@ insert_final_newline = true
 charset = utf-8
 
 # 4 space indentation
-[*.py]
+[*.{py}]
 indent_style = space
 indent_size = 4
 
 # Tab indentation 
-[*.[ch]]
+[*.{c,h}]
 indent_style = tab
 indent_size = 4
 

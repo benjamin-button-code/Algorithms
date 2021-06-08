@@ -1,21 +1,21 @@
 #include <stdio.h>
 
-
-void	swap(int *a, int *b)
+void swap(int *a, int *b)
 {
 	if (*a != *b)
-	{	
+	{
 		*a += *b;
 		*b = *a - *b;
 		*a -= *b;
 	}
 }
 
+
 int partition(int **array, int start, int length)
 {
-	int	pivot = (*array)[start];
-	int	i = start + 1;
-	int	j = i;
+	int pivot = (*array)[start];
+	int i = start + 1;
+	int j = i;
 
 	while (j < length)
 	{
@@ -30,7 +30,7 @@ int partition(int **array, int start, int length)
 	return (i - 1);
 }
 
-void	quick_sort(int *array, int start, int length)
+void quick_sort(int *array, int start, int length)
 {
 	if (length > start)
 	{

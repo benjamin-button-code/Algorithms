@@ -1,9 +1,9 @@
-int	binary_search(int array[], int item, int len)
+int binary_search(int array[], int item, int len)
 {
-	int	low;
-	int	high;
-	int	mid;
-	int	current_element;
+	int low;
+	int high;
+	int mid;
+	int current_element;
 
 	low = 0;
 	high = len - 1;

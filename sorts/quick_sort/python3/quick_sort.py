@@ -5,6 +5,7 @@ def quick_sort(collection: List, reverse=False) -> List:
 	"""A pure Python implementation of quick sort algorithm.
     :param collection: a mutable collection of comparable items
     :return: the same collection ordered by ascending"""
+
 	if len(collection) < 2:
 		return collection
 	pivot = collection.pop()

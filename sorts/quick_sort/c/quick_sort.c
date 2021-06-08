@@ -10,7 +10,6 @@ void swap(int *a, int *b)
 	}
 }
 
-
 int partition(int **array, int start, int length)
 {
 	int pivot = (*array)[start];

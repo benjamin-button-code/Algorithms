@@ -10,8 +10,7 @@ def partition(collection: List, left_index: int, right_index: int):
         if collection[j] < pivot:
             collection[i], collection[j] = collection[j], collection[i]
             i += 1
-    collection[left_index], collection[i -
-                                       1] = collection[i - 1], collection[left_index]
+    collection[left_index], collection[i - 1] = collection[i - 1], collection[left_index]
     return i - 1
 
 
